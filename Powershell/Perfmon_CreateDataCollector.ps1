@@ -256,7 +256,7 @@ if ($answer.ToUpper() -eq 'Y')
     }
 }
 
-$BaseName = "$($VARS.filepath)$($VARS.dcname)"
+$BaseName = "$($VARS.filepath)\$($VARS.dcname)"
 $configFile = "$BaseName.config"
 
 wh "Config file $configFile"
